@@ -19,11 +19,6 @@ public class FourPointTwoDiamond {
 				System.out.print("*");
 				instantA--;
 			}
-			instantS = s;
-			while (instantS > 0) {
-				System.out.print(" ");
-				instantS--;
-			}
 			if (l != 3) {
 			a += 2;
 			s--;
@@ -33,7 +28,7 @@ public class FourPointTwoDiamond {
 			l--;
 			System.out.print("\n");
 		}
-		while (l >= 0) {
+		while (l > 0) {
 			a -= 2;
 			l--;
 			s++;
@@ -46,11 +41,6 @@ public class FourPointTwoDiamond {
 			while (instantA > 0) {
 				System.out.print("*");
 				instantA--;
-			}
-			instantS = s;
-			while (instantS > 0) {
-				System.out.print(" ");
-				instantS--;
 			}
 			System.out.print("\n");
 		}
